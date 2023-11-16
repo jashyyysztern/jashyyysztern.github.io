@@ -1,0 +1,70 @@
+.img-fondoprincipal{
+    background-image: url("../imagenes/fondo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.img-fondoprincipal > div{
+    width: 30%;
+}
+
+.contacto-fondo{
+    background-image: url("../imagenes/fondo-contacto.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding-top:50px
+}
+
+.contacto-fondo form{
+    width:40%;
+}
+
+@keyframes personaje {
+    0%{
+        font-size:1em
+    }
+    50%{
+        font-size:1.5em
+    }
+    100%{
+        font-size: 1em;
+    }
+    
+}
+
+.titulo_personaje{
+    animation: personaje 2s infinite;
+    min-height: 40px;
+}
+
+.personajes-cont > div{
+    flex: 1 0 280px;
+}
+.ficha div{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:798px) {
+    .img-fondoprincipal > div{
+        width: 50%;
+    }
+
+    .contacto-fondo form{
+        width:60%;
+    }
+
+    
+}
+body {
+    background-color: #ffff00; 
+}
+body {
+    background-color: rgb(222, 222, 16);
+}
+
+.bienvenidos {
+    color: white !important;
+}
